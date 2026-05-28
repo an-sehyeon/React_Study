@@ -55,11 +55,12 @@ React Study!!, Hello React
 - props의 자료형은 JavaScript의 자료형을 모두 사용 가능.
 #### 문자열 타입 프로퍼티
 - 프로퍼티 타입이 문자열인 경우, 프로퍼티 값을 표현할 때는 큰 따옴표("")를 사용
+
 ```<MyComponent name = "React Study"/>```
 <br><br>
 
 #### 문자열 이외 타입 프로퍼티
-- 문자열 타입 이외의 프로퍼티 값은 중과로({})를 사용.
+- 문자열 타입 이외의 프로퍼티 값은 중괄호({})를 사용.
 ```plantuml
 <MyComponent
     boolProp={true}     // boolean

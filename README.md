@@ -21,7 +21,10 @@
     }
     ```
 
-- 브라우저가 JSX를 그대로 이해하는 것이 아닌, 빌드 과정에서 일반 JavaScript로 변환.
+- 특징
+    1. 공식적인 JavaScript 문법은 아니며, 바벨에 의해 React.createElement()형태의 일반 JavaScript 코드로 변환됨.
+    2. HTML과 매우 유사하여 가독성이 높고 작성하기 쉬움.
+    3. {} 중괄호를 사용하여 JavaScript 표현식을 넣을 수 있음
 
 
 ### SPA(Single Page Application) 방식
